@@ -1,6 +1,4 @@
-# Flight Delay Prediction Project
-
-## Abstract
+# Two Stage Flight Delay Predictor
 
 The objective of this project is to predict flight delays for 15 airports in the United States using a two-stage machine learning model. This model combines classification and regression techniques to provide comprehensive predictions. Initially, a binary classifier determines if a flight will be delayed by 15 minutes or more, using the target variable `Arrdel15`. Subsequently, for flights classified as delayed, a regression model predicts the exact delay duration in minutes, denoted by `ArrDelminutes`. 
 
